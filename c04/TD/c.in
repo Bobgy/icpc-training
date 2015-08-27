@@ -1,0 +1,1743 @@
+2 3 5
+1 A 00:10:05 Yes
+2 A 00:15:15 No - Wrong Answer
+1 C 01:01:01 Yes
+2 B 02:20:00 Yes
+1 B 03:10:00 Yes
+2 3 5
+1 A 00:10:05 Yes
+2 A 00:15:15 No - Wrong Answer
+1 C 01:01:01 Yes
+2 B 02:20:00 Yes
+1 B 03:10:00 No - Wrong Answer
+2 3 5
+1 A 00:10:05 Yes
+2 A 00:15:15 No - Wrong Answer
+1 C 01:01:01 Yes
+1 B 03:10:00 Yes
+2 B 04:20:00 Yes
+2 2 1
+1 A 00:00:01 Yes
+2 2 2
+2 B 00:00:02 Yes
+1 A 00:00:01 Yes
+2 2 3
+1 A 00:00:01 Yes
+2 A 00:00:03 Yes
+2 B 00:00:02 Yes
+2 2 3
+1 A 00:00:01 Yes
+2 B 00:00:03 Yes
+2 A 00:00:02 Yes
+3 3 5
+1 A 00:00:01 Yes
+2 B 00:00:03 Yes
+2 A 00:00:02 Yes
+1 B 00:00:05 Yes
+3 C 00:00:15 Yes
+3 3 6
+1 A 00:00:01 Yes
+2 B 00:00:03 Yes
+2 A 00:00:02 Yes
+1 B 00:00:05 Yes
+3 C 00:00:15 Yes
+2 C 00:10:15 Yes
+3 3 7
+1 A 00:00:01 Yes
+2 A 00:20:02 Yes
+2 B 00:00:03 Yes
+3 C 00:20:15 Yes
+3 B 00:23:15 No - Wrong Answer
+1 B 00:30:05 Yes
+3 B 00:32:15 Yes
+52 10 341
+31 A 03:25:51 Yes
+42 A 03:35:11 Yes
+47 A 03:45:21 Yes
+40 A 04:00:31 Yes
+1 A 00:00:01 Yes
+6 A 00:00:02 Yes
+7 A 00:00:03 Yes
+8 A 00:00:04 Yes
+18 A 00:00:05 Yes
+20 A 00:00:06 Yes
+25 A 00:00:08 Yes
+40 A 00:00:10 Yes
+1 F 04:10:01 Yes
+2 C 03:22:01 Yes
+3 J 04:25:01 Yes
+24 F 03:07:02 Yes
+24 A 00:07:02 Yes
+15 B 00:08:02 Yes
+14 B 00:08:48 Yes
+32 B 00:10:18 Yes
+3 A 00:10:31 Yes
+5 B 00:12:13 Yes
+15 A 00:15:07 Yes
+14 A 00:15:31 Yes
+21 B 00:15:40 Yes
+11 B 00:16:14 Yes
+21 A 00:17:28 Yes
+34 A 00:18:21 Yes
+24 B 00:18:22 Yes
+15 D 00:18:26 Yes
+33 B 00:18:28 Yes
+3 B 00:19:28 Yes
+5 A 00:21:03 Yes
+14 D 00:21:38 Yes
+9 A 00:22:35 Yes
+33 A 00:22:52 Yes
+11 A 00:23:43 Yes
+32 A 00:24:30 Yes
+30 B 00:26:06 Yes
+24 D 00:27:26 Yes
+21 D 00:27:28 Yes
+34 B 00:28:51 Yes
+3 D 00:29:20 No - Wrong Answer
+33 D 00:29:52 Yes
+2 D 00:32:26 No - Wrong Answer
+28 A 00:33:53 No - Run-time Error
+30 A 00:34:34 No - Wrong Answer
+14 E 00:36:16 Yes
+10 A 00:37:03 Yes
+19 A 00:38:24 Yes
+9 B 00:39:35 Yes
+11 D 00:42:32 No - Run-time Error
+37 A 00:46:43 Yes
+12 A 00:46:48 Yes
+16 A 00:49:01 No - Compilation Error
+2 A 00:49:39 Yes
+5 D 00:49:43 Yes
+38 A 00:50:58 No - Wrong Answer
+39 A 00:52:04 Yes
+32 D 00:53:27 Yes
+44 A 00:54:33 No - Run-time Error
+11 D 00:54:41 Yes
+3 E 00:55:17 No - Wrong Answer
+45 B 00:55:30 Yes
+13 A 00:55:33 No - Run-time Error
+38 A 00:55:44 Yes
+9 D 00:55:50 No - Compilation Error
+45 A 00:56:09 Yes
+41 B 00:56:37 Yes
+41 A 00:56:52 No - Compilation Error
+13 A 00:58:32 No - Run-time Error
+3 E 00:58:45 No - Wrong Answer
+27 D 01:00:04 No - Run-time Error
+30 D 01:00:11 Yes
+13 A 01:00:25 No - Run-time Error
+19 B 01:00:26 No - Wrong Answer
+35 A 01:00:31 No - Wrong Answer
+35 A 01:00:45 No - Wrong Answer
+35 A 01:00:59 No - Wrong Answer
+15 H 01:01:30 Yes
+16 A 01:01:37 No - Compilation Error
+44 A 01:01:42 Yes
+35 A 01:01:49 No - Wrong Answer
+50 A 01:02:11 Yes
+24 E 01:02:54 Yes
+27 D 01:03:15 No - Run-time Error
+49 A 01:03:19 Yes
+49 D 01:03:34 Yes
+13 A 01:03:59 No - Run-time Error
+2 B 01:04:17 Yes
+9 D 01:04:42 Yes
+31 A 01:07:51 No - Wrong Answer
+35 A 01:07:52 No - Wrong Answer
+3 E 01:07:53 Yes
+30 A 01:08:18 Yes
+41 A 01:09:08 Yes
+4 A 01:10:12 No - Wrong Answer
+14 G 01:10:16 Yes
+15 E 01:10:33 No - Wrong Answer
+19 B 01:10:56 No - Wrong Answer
+40 A 01:11:10 No - Wrong Answer
+35 A 01:12:33 No - Wrong Answer
+4 A 01:12:43 Yes
+45 D 01:13:29 Yes
+16 A 01:14:08 No - Compilation Error
+50 B 01:14:34 Yes
+36 B 01:14:35 Yes
+13 A 01:15:18 Yes
+10 D 01:16:50 Yes
+27 B 01:17:10 Yes
+44 D 01:18:21 No - Run-time Error
+15 E 01:20:33 Yes
+21 G 01:20:49 Yes
+16 A 01:21:00 No - Compilation Error
+36 A 01:22:20 Yes
+41 D 01:24:20 Yes
+2 D 01:24:31 No - Wrong Answer
+48 A 01:25:41 Yes
+11 E 01:26:23 No - Wrong Answer
+34 D 01:27:11 No - Wrong Answer
+12 B 01:27:22 Yes
+4 B 01:28:34 Yes
+44 D 01:28:37 No - Run-time Error
+19 B 01:30:31 No - Wrong Answer
+24 G 01:31:04 Yes
+26 A 01:31:09 No - Compilation Error
+26 A 01:32:03 No - Compilation Error
+23 D 01:32:44 Yes
+33 G 01:32:57 No - Wrong Answer
+46 D 01:33:26 No - Compilation Error
+26 A 01:35:09 No - Wrong Answer
+27 D 01:36:31 No - Compilation Error
+11 E 01:36:41 Yes
+15 G 01:37:23 No - Wrong Answer
+30 E 01:38:00 Yes
+40 A 01:38:18 No - Wrong Answer
+48 B 01:39:39 Yes
+36 D 01:39:42 Yes
+43 B 01:39:49 No - Wrong Answer
+35 A 01:40:07 No - Wrong Answer
+5 G 01:40:12 Yes
+34 D 01:41:27 Yes
+4 D 01:41:38 No - Wrong Answer
+31 B 01:42:00 Yes
+44 D 01:44:08 Yes
+51 D 01:45:03 Yes
+39 B 01:45:54 Yes
+39 B 01:46:05 Yes
+27 D 01:50:26 No - Compilation Error
+23 A 01:51:21 Yes
+4 D 01:51:22 Yes
+46 D 01:51:44 No - Compilation Error
+31 A 01:52:31 No - Run-time Error
+46 B 01:52:45 Yes
+13 D 01:53:01 No - Wrong Answer
+13 D 01:56:56 No - Wrong Answer
+27 D 01:56:57 No - Compilation Error
+43 B 01:57:02 No - Wrong Answer
+13 D 01:57:45 Yes
+37 D 01:57:50 No - Wrong Answer
+11 G 01:57:59 Yes
+33 E 01:58:31 Yes
+35 A 02:03:18 Yes
+13 D 02:03:36 Yes
+36 E 02:04:25 No - Wrong Answer
+9 G 02:04:41 Yes
+3 G 02:07:58 Yes
+2 D 02:08:47 Yes
+43 G 02:09:52 Yes
+5 I 02:10:57 Yes
+36 E 02:11:28 Yes
+38 B 02:11:37 Yes
+27 D 02:12:50 No - Compilation Error
+43 H 02:13:39 No - Compilation Error
+15 G 02:14:36 Yes
+10 B 02:17:27 Yes
+12 D 02:18:09 Yes
+41 E 02:22:10 No - Wrong Answer
+28 A 02:23:15 No - Presentation Error
+36 G 02:24:24 Yes
+28 A 02:24:48 Yes
+41 E 02:26:30 Yes
+48 D 02:27:10 Yes
+37 D 02:27:22 No - Wrong Answer
+43 A 02:28:06 Yes
+19 D 02:28:08 No - Compilation Error
+32 E 02:29:11 No - Wrong Answer
+14 H 02:29:42 No - Time Limit Exceeded
+19 D 02:30:46 Yes
+23 B 02:31:17 No - Wrong Answer
+37 D 02:32:15 Yes
+50 D 02:33:02 Yes
+26 A 02:35:14 No - Wrong Answer
+43 A 02:35:22 Yes
+31 E 02:35:46 No - Wrong Answer
+28 B 02:36:07 No - Wrong Answer
+39 D 02:38:54 Yes
+31 E 02:39:04 No - Wrong Answer
+43 G 02:39:11 No - Wrong Answer
+4 E 02:40:08 No - Wrong Answer
+14 I 02:40:32 Yes
+16 D 02:40:34 No - Time Limit Exceeded
+52 D 02:40:44 Yes
+23 B 02:41:32 No - Wrong Answer
+21 E 02:41:34 No - Wrong Answer
+27 D 02:42:06 No - Compilation Error
+17 A 02:43:51 No - Wrong Answer
+15 I 02:44:34 Yes
+14 H 02:45:10 Yes
+23 B 02:45:57 No - Wrong Answer
+4 E 02:46:02 Yes
+24 I 02:47:04 Yes
+17 A 02:48:09 No - Wrong Answer
+33 G 02:48:16 No - Wrong Answer
+16 D 02:48:50 No - Compilation Error
+32 E 02:49:02 No - Wrong Answer
+27 D 02:49:12 Yes
+16 A 02:49:47 Yes
+46 A 02:49:55 No - Wrong Answer
+40 A 02:50:21 No - Wrong Answer
+43 G 02:50:42 Yes
+26 A 02:51:42 Yes
+32 E 02:52:21 Yes
+44 G 02:52:44 No - Wrong Answer
+42 D 02:52:46 Yes
+24 H 02:52:48 No - Compilation Error
+28 B 02:52:56 No - Wrong Answer
+21 E 02:53:16 Yes
+17 A 02:53:22 No - Wrong Answer
+23 B 02:53:35 No - Wrong Answer
+2 E 02:54:35 No - Wrong Answer
+41 G 02:56:09 No - Wrong Answer
+43 D 02:56:19 No - Wrong Answer
+16 D 02:56:27 No - Compilation Error
+9 E 02:58:02 No - Wrong Answer
+38 E 02:58:18 No - Compilation Error
+52 A 02:58:59 No - Wrong Answer
+43 D 03:01:20 No - Compilation Error
+44 G 03:01:21 No - Wrong Answer
+2 E 03:02:42 No - Wrong Answer
+26 D 03:03:56 No - Wrong Answer
+24 H 03:05:38 Yes
+29 B 03:07:17 No - Compilation Error
+49 H 03:08:16 No - Compilation Error
+9 E 03:08:38 No - Wrong Answer
+16 D 03:09:08 No - Run-time Error
+29 B 03:09:14 Yes
+10 E 03:09:20 No - Wrong Answer
+35 D 03:09:43 No - Wrong Answer
+5 E 03:09:59 No - Wrong Answer
+34 G 03:11:15 No - Wrong Answer
+43 D 03:11:17 Yes
+41 G 03:13:05 No - Wrong Answer
+44 G 03:13:23 No - Wrong Answer
+27 A 03:13:25 No - Wrong Answer
+26 A 03:14:30 No - Wrong Answer
+26 D 03:14:45 Yes
+31 D 03:14:55 No - Run-time Error
+45 E 03:15:02 Yes
+27 A 03:15:24 No - Wrong Answer
+26 A 03:16:04 Yes
+35 D 03:16:18 No - Wrong Answer
+2 E 03:16:42 Yes
+31 D 03:17:07 Yes
+10 E 03:17:21 No - Wrong Answer
+9 E 03:17:38 No - Wrong Answer
+46 A 03:17:59 Yes
+13 B 03:19:38 No - Wrong Answer
+47 D 03:19:43 No - Wrong Answer
+10 E 03:20:01 No - Wrong Answer
+5 E 03:20:28 Yes
+50 E 03:20:46 No - Wrong Answer
+9 E 03:22:11 No - Wrong Answer
+16 D 03:22:35 No - Run-time Error
+10 E 03:22:54 Yes
+43 B 03:24:40 Yes
+50 E 03:24:52 Yes
+49 B 03:24:56 Yes
+38 D 03:24:57 No - Wrong Answer
+31 A 03:25:47 No - Wrong Answer
+19 B 03:27:42 Yes
+27 A 03:28:47 Yes
+36 I 03:29:30 Yes
+45 G 03:31:28 Yes
+31 E 03:32:04 No - Wrong Answer
+39 G 03:32:07 No - Wrong Answer
+22 A 03:32:39 No - Compilation Error
+9 E 03:32:52 No - Wrong Answer
+51 A 03:33:12 No - Wrong Answer
+4 G 03:34:20 Yes
+51 A 03:34:58 Yes
+17 A 03:35:36 No - Time Limit Exceeded
+52 A 03:35:52 Yes
+9 E 03:36:29 Yes
+47 D 03:36:50 No - Wrong Answer
+35 D 03:37:34 Yes
+38 D 03:37:48 No - Wrong Answer
+13 B 03:37:59 Yes
+21 I 03:38:09 Yes
+41 G 03:38:56 Yes
+50 G 03:39:16 Yes
+38 D 03:39:30 Yes
+39 G 03:39:54 No - Wrong Answer
+5 H 03:40:14 Yes
+44 B 03:40:42 No - Wrong Answer
+47 D 03:41:04 Yes
+2 G 03:41:11 No - Wrong Answer
+29 A 03:42:06 No - Compilation Error
+16 D 03:42:48 No - Compilation Error
+17 B 03:43:32 Yes
+28 D 03:44:05 No - Wrong Answer
+29 A 03:45:01 No - Compilation Error
+28 B 03:45:05 No - Wrong Answer
+28 D 03:45:16 No - Wrong Answer
+46 G 03:46:12 No - Wrong Answer
+28 D 03:47:29 Yes
+22 A 03:47:59 Yes
+28 D 03:48:49 Yes
+3 I 03:49:02 Yes
+47 A 03:49:19 No - Run-time Error
+51 F 03:49:25 No - Compilation Error
+21 H 03:49:36 Yes
+23 E 03:50:14 No - Wrong Answer
+29 A 03:50:21 No - Compilation Error
+47 A 03:51:41 No - Run-time Error
+29 A 03:52:28 Yes
+23 E 03:53:20 No - Wrong Answer
+35 B 03:53:35 Yes
+28 B 03:53:58 No - Wrong Answer
+48 G 03:53:59 No - Wrong Answer
+24 F 03:54:00 No - Wrong Answer
+37 B 03:55:13 No - Wrong Answer
+15 F 03:55:14 No - Wrong Answer
+2 H 03:55:31 No - Compilation Error
+19 E 03:55:35 Yes
+2 H 03:55:55 No - Compilation Error
+40 A 03:55:56 No - Wrong Answer
+3 H 03:57:19 Yes
+31 F 03:57:23 No - Compilation Error
+52 B 03:58:50 No - Wrong Answer
+17 A 03:59:26 Yes
+52 10 341
+31 A 03:25:55 Yes
+42 A 03:35:11 Yes
+47 A 03:45:21 Yes
+40 A 04:00:31 Yes
+1 A 00:00:01 Yes
+6 A 00:00:02 Yes
+7 A 00:00:03 Yes
+8 A 00:00:04 Yes
+18 A 00:00:05 Yes
+20 A 00:00:06 Yes
+25 A 00:00:08 Yes
+40 A 00:00:10 Yes
+1 F 04:10:01 Yes
+2 C 03:22:01 Yes
+3 J 03:25:01 Yes
+24 F 03:07:02 Yes
+24 A 00:07:02 Yes
+15 B 00:08:02 Yes
+14 B 00:08:48 Yes
+32 B 00:10:18 Yes
+3 A 00:10:31 Yes
+5 B 00:12:13 Yes
+15 A 00:15:07 Yes
+14 A 00:15:31 Yes
+21 B 00:15:40 Yes
+11 B 00:16:14 Yes
+21 A 00:17:28 Yes
+34 A 00:18:21 Yes
+24 B 00:18:22 Yes
+15 D 00:18:26 Yes
+33 B 00:18:28 Yes
+3 B 00:19:28 Yes
+5 A 00:21:03 Yes
+14 D 00:21:38 Yes
+9 A 00:22:35 Yes
+33 A 00:22:52 Yes
+11 A 00:23:43 Yes
+32 A 00:24:30 Yes
+30 B 00:26:06 Yes
+24 D 00:27:26 Yes
+21 D 00:27:28 Yes
+34 B 00:28:51 Yes
+3 D 00:29:20 No - Wrong Answer
+33 D 00:29:52 Yes
+2 D 00:32:26 No - Wrong Answer
+28 A 00:33:53 No - Run-time Error
+30 A 00:34:34 No - Wrong Answer
+14 E 00:36:16 Yes
+10 A 00:37:03 Yes
+19 A 00:38:24 Yes
+9 B 00:39:35 Yes
+11 D 00:42:32 No - Run-time Error
+37 A 00:46:43 Yes
+12 A 00:46:48 Yes
+16 A 00:49:01 No - Compilation Error
+2 A 00:49:39 Yes
+5 D 00:49:43 Yes
+38 A 00:50:58 No - Wrong Answer
+39 A 00:52:04 Yes
+32 D 00:53:27 Yes
+44 A 00:54:33 No - Run-time Error
+11 D 00:54:41 Yes
+3 E 00:55:17 No - Wrong Answer
+45 B 00:55:30 Yes
+13 A 00:55:33 No - Run-time Error
+38 A 00:55:44 Yes
+9 D 00:55:50 No - Compilation Error
+45 A 00:56:09 Yes
+41 B 00:56:37 Yes
+41 A 00:56:52 No - Compilation Error
+13 A 00:58:32 No - Run-time Error
+3 E 00:58:45 No - Wrong Answer
+27 D 01:00:04 No - Run-time Error
+30 D 01:00:11 Yes
+13 A 01:00:25 No - Run-time Error
+19 B 01:00:26 No - Wrong Answer
+35 A 01:00:31 No - Wrong Answer
+35 A 01:00:45 No - Wrong Answer
+35 A 01:00:59 No - Wrong Answer
+15 H 01:01:30 Yes
+16 A 01:01:37 No - Compilation Error
+44 A 01:01:42 Yes
+35 A 01:01:49 No - Wrong Answer
+50 A 01:02:11 Yes
+24 E 01:02:54 Yes
+27 D 01:03:15 No - Run-time Error
+49 A 01:03:19 Yes
+49 D 01:03:34 Yes
+13 A 01:03:59 No - Run-time Error
+2 B 01:04:17 Yes
+9 D 01:04:42 Yes
+31 A 01:07:51 No - Wrong Answer
+35 A 01:07:52 No - Wrong Answer
+3 E 01:07:53 Yes
+30 A 01:08:18 Yes
+41 A 01:09:08 Yes
+4 A 01:10:12 No - Wrong Answer
+14 G 01:10:16 Yes
+15 E 01:10:33 No - Wrong Answer
+19 B 01:10:56 No - Wrong Answer
+40 A 01:11:10 No - Wrong Answer
+35 A 01:12:33 No - Wrong Answer
+4 A 01:12:43 Yes
+45 D 01:13:29 Yes
+16 A 01:14:08 No - Compilation Error
+50 B 01:14:34 Yes
+36 B 01:14:35 Yes
+13 A 01:15:18 Yes
+10 D 01:16:50 Yes
+27 B 01:17:10 Yes
+44 D 01:18:21 No - Run-time Error
+15 E 01:20:33 Yes
+21 G 01:20:49 Yes
+16 A 01:21:00 No - Compilation Error
+36 A 01:22:20 Yes
+41 D 01:24:20 Yes
+2 D 01:24:31 No - Wrong Answer
+48 A 01:25:41 Yes
+11 E 01:26:23 No - Wrong Answer
+34 D 01:27:11 No - Wrong Answer
+12 B 01:27:22 Yes
+4 B 01:28:34 Yes
+44 D 01:28:37 No - Run-time Error
+19 B 01:30:31 No - Wrong Answer
+24 G 01:31:04 Yes
+26 A 01:31:09 No - Compilation Error
+26 A 01:32:03 No - Compilation Error
+23 D 01:32:44 Yes
+33 G 01:32:57 No - Wrong Answer
+46 D 01:33:26 No - Compilation Error
+26 A 01:35:09 No - Wrong Answer
+27 D 01:36:31 No - Compilation Error
+11 E 01:36:41 Yes
+15 G 01:37:23 No - Wrong Answer
+30 E 01:38:00 Yes
+40 A 01:38:18 No - Wrong Answer
+48 B 01:39:39 Yes
+36 D 01:39:42 Yes
+43 B 01:39:49 No - Wrong Answer
+35 A 01:40:07 No - Wrong Answer
+5 G 01:40:12 Yes
+34 D 01:41:27 Yes
+4 D 01:41:38 No - Wrong Answer
+31 B 01:42:00 Yes
+44 D 01:44:08 Yes
+51 D 01:45:03 Yes
+39 B 01:45:54 Yes
+39 B 01:46:05 Yes
+27 D 01:50:26 No - Compilation Error
+23 A 01:51:21 Yes
+4 D 01:51:22 Yes
+46 D 01:51:44 No - Compilation Error
+31 A 01:52:31 No - Run-time Error
+46 B 01:52:45 Yes
+13 D 01:53:01 No - Wrong Answer
+13 D 01:56:56 No - Wrong Answer
+27 D 01:56:57 No - Compilation Error
+43 B 01:57:02 No - Wrong Answer
+13 D 01:57:45 Yes
+37 D 01:57:50 No - Wrong Answer
+11 G 01:57:59 Yes
+33 E 01:58:31 Yes
+35 A 02:03:18 Yes
+13 D 02:03:36 Yes
+36 E 02:04:25 No - Wrong Answer
+9 G 02:04:41 Yes
+3 G 02:07:58 Yes
+2 D 02:08:47 Yes
+43 G 02:09:52 Yes
+5 I 02:10:57 Yes
+36 E 02:11:28 Yes
+38 B 02:11:37 Yes
+27 D 02:12:50 No - Compilation Error
+43 H 02:13:39 No - Compilation Error
+15 G 02:14:36 Yes
+10 B 02:17:27 Yes
+12 D 02:18:09 Yes
+41 E 02:22:10 No - Wrong Answer
+28 A 02:23:15 No - Presentation Error
+36 G 02:24:24 Yes
+28 A 02:24:48 Yes
+41 E 02:26:30 Yes
+48 D 02:27:10 Yes
+37 D 02:27:22 No - Wrong Answer
+43 A 02:28:06 Yes
+19 D 02:28:08 No - Compilation Error
+32 E 02:29:11 No - Wrong Answer
+14 H 02:29:42 No - Time Limit Exceeded
+19 D 02:30:46 Yes
+23 B 02:31:17 No - Wrong Answer
+37 D 02:32:15 Yes
+50 D 02:33:02 Yes
+26 A 02:35:14 No - Wrong Answer
+43 A 02:35:22 Yes
+31 E 02:35:46 No - Wrong Answer
+28 B 02:36:07 No - Wrong Answer
+39 D 02:38:54 Yes
+31 E 02:39:04 No - Wrong Answer
+43 G 02:39:11 No - Wrong Answer
+4 E 02:40:08 No - Wrong Answer
+14 I 02:40:32 Yes
+16 D 02:40:34 No - Time Limit Exceeded
+52 D 02:40:44 Yes
+23 B 02:41:32 No - Wrong Answer
+21 E 02:41:34 No - Wrong Answer
+27 D 02:42:06 No - Compilation Error
+17 A 02:43:51 No - Wrong Answer
+15 I 02:44:34 Yes
+14 H 02:45:10 Yes
+23 B 02:45:57 No - Wrong Answer
+4 E 02:46:02 Yes
+24 I 02:47:04 Yes
+17 A 02:48:09 No - Wrong Answer
+33 G 02:48:16 No - Wrong Answer
+16 D 02:48:50 No - Compilation Error
+32 E 02:49:02 No - Wrong Answer
+27 D 02:49:12 Yes
+16 A 02:49:47 Yes
+46 A 02:49:55 No - Wrong Answer
+40 A 02:50:21 No - Wrong Answer
+43 G 02:50:42 Yes
+26 A 02:51:42 Yes
+32 E 02:52:21 Yes
+44 G 02:52:44 No - Wrong Answer
+42 D 02:52:46 Yes
+24 H 02:52:48 No - Compilation Error
+28 B 02:52:56 No - Wrong Answer
+21 E 02:53:16 Yes
+17 A 02:53:22 No - Wrong Answer
+23 B 02:53:35 No - Wrong Answer
+2 E 02:54:35 No - Wrong Answer
+41 G 02:56:09 No - Wrong Answer
+43 D 02:56:19 No - Wrong Answer
+16 D 02:56:27 No - Compilation Error
+9 E 02:58:02 No - Wrong Answer
+38 E 02:58:18 No - Compilation Error
+52 A 02:58:59 No - Wrong Answer
+43 D 03:01:20 No - Compilation Error
+44 G 03:01:21 No - Wrong Answer
+2 E 03:02:42 No - Wrong Answer
+26 D 03:03:56 No - Wrong Answer
+24 H 03:05:38 Yes
+29 B 03:07:17 No - Compilation Error
+49 H 03:08:16 No - Compilation Error
+9 E 03:08:38 No - Wrong Answer
+16 D 03:09:08 No - Run-time Error
+29 B 03:09:14 Yes
+10 E 03:09:20 No - Wrong Answer
+35 D 03:09:43 No - Wrong Answer
+5 E 03:09:59 No - Wrong Answer
+34 G 03:11:15 No - Wrong Answer
+43 D 03:11:17 Yes
+41 G 03:13:05 No - Wrong Answer
+44 G 03:13:23 No - Wrong Answer
+27 A 03:13:25 No - Wrong Answer
+26 A 03:14:30 No - Wrong Answer
+26 D 03:14:45 Yes
+31 D 03:14:55 No - Run-time Error
+45 E 03:15:02 Yes
+27 A 03:15:24 No - Wrong Answer
+26 A 03:16:04 Yes
+35 D 03:16:18 No - Wrong Answer
+2 E 03:16:42 Yes
+31 D 03:17:07 Yes
+10 E 03:17:21 No - Wrong Answer
+9 E 03:17:38 No - Wrong Answer
+46 A 03:17:59 Yes
+13 B 03:19:38 No - Wrong Answer
+47 D 03:19:43 No - Wrong Answer
+10 E 03:20:01 No - Wrong Answer
+5 E 03:20:28 Yes
+50 E 03:20:46 No - Wrong Answer
+9 E 03:22:11 No - Wrong Answer
+16 D 03:22:35 No - Run-time Error
+10 E 03:22:54 Yes
+43 B 03:24:40 Yes
+50 E 03:24:52 Yes
+49 B 03:24:56 Yes
+38 D 03:24:57 No - Wrong Answer
+31 A 03:25:47 No - Wrong Answer
+19 B 03:27:42 Yes
+27 A 03:28:47 Yes
+36 I 03:29:30 Yes
+45 G 03:31:28 Yes
+31 E 03:32:04 No - Wrong Answer
+39 G 03:32:07 No - Wrong Answer
+22 A 03:32:39 No - Compilation Error
+9 E 03:32:52 No - Wrong Answer
+51 A 03:33:12 No - Wrong Answer
+4 G 03:34:20 Yes
+51 A 03:34:58 Yes
+17 A 03:35:36 No - Time Limit Exceeded
+52 A 03:35:52 Yes
+9 E 03:36:29 Yes
+47 D 03:36:50 No - Wrong Answer
+35 D 03:37:34 Yes
+38 D 03:37:48 No - Wrong Answer
+13 B 03:37:59 Yes
+21 I 03:38:09 Yes
+41 G 03:38:56 Yes
+50 G 03:39:16 Yes
+38 D 03:39:30 Yes
+39 G 03:39:54 No - Wrong Answer
+5 H 03:40:14 Yes
+44 B 03:40:42 No - Wrong Answer
+47 D 03:41:04 Yes
+2 G 03:41:11 No - Wrong Answer
+29 A 03:42:06 No - Compilation Error
+16 D 03:42:48 No - Compilation Error
+17 B 03:43:32 Yes
+28 D 03:44:05 No - Wrong Answer
+29 A 03:45:01 No - Compilation Error
+28 B 03:45:05 No - Wrong Answer
+28 D 03:45:16 No - Wrong Answer
+46 G 03:46:12 No - Wrong Answer
+28 D 03:47:29 Yes
+22 A 03:47:59 Yes
+28 D 03:48:49 Yes
+3 I 03:49:02 Yes
+47 A 03:49:19 No - Run-time Error
+51 F 03:49:25 No - Compilation Error
+21 H 03:49:36 Yes
+23 E 03:50:14 No - Wrong Answer
+29 A 03:50:21 No - Compilation Error
+47 A 03:51:41 No - Run-time Error
+29 A 03:52:28 Yes
+23 E 03:53:20 No - Wrong Answer
+35 B 03:53:35 Yes
+28 B 03:53:58 No - Wrong Answer
+48 G 03:53:59 No - Wrong Answer
+24 F 03:54:00 No - Wrong Answer
+37 B 03:55:13 No - Wrong Answer
+15 F 03:55:14 No - Wrong Answer
+2 H 03:55:31 No - Compilation Error
+19 E 03:55:35 Yes
+2 H 03:55:55 No - Compilation Error
+40 A 03:55:56 No - Wrong Answer
+3 H 03:57:19 Yes
+31 F 03:57:23 No - Compilation Error
+52 B 03:58:50 No - Wrong Answer
+17 A 03:59:26 Yes
+52 10 341
+31 A 04:00:01 Yes
+42 A 04:00:11 Yes
+47 A 04:00:21 Yes
+40 A 04:00:31 Yes
+1 A 00:00:01 Yes
+6 A 00:00:02 Yes
+7 A 00:00:03 Yes
+8 A 00:00:04 Yes
+18 A 00:00:05 Yes
+20 A 00:00:06 Yes
+25 A 00:00:08 Yes
+40 A 00:00:10 Yes
+1 F 04:10:01 Yes
+2 C 03:22:01 Yes
+3 J 03:25:01 Yes
+24 F 03:07:02 Yes
+24 A 00:07:02 Yes
+15 B 00:08:02 Yes
+14 B 00:08:48 Yes
+32 B 00:10:18 Yes
+3 A 00:10:31 Yes
+5 B 00:12:13 Yes
+15 A 00:15:07 Yes
+14 A 00:15:31 Yes
+21 B 00:15:40 Yes
+11 B 00:16:14 Yes
+21 A 00:17:28 Yes
+34 A 00:18:21 Yes
+24 B 00:18:22 Yes
+15 D 00:18:26 Yes
+33 B 00:18:28 Yes
+3 B 00:19:28 Yes
+5 A 00:21:03 Yes
+14 D 00:21:38 Yes
+9 A 00:22:35 Yes
+33 A 00:22:52 Yes
+11 A 00:23:43 Yes
+32 A 00:24:30 Yes
+30 B 00:26:06 Yes
+24 D 00:27:26 Yes
+21 D 00:27:28 Yes
+34 B 00:28:51 Yes
+3 D 00:29:20 No - Wrong Answer
+33 D 00:29:52 Yes
+2 D 00:32:26 No - Wrong Answer
+28 A 00:33:53 No - Run-time Error
+30 A 00:34:34 No - Wrong Answer
+14 E 00:36:16 Yes
+10 A 00:37:03 Yes
+19 A 00:38:24 Yes
+9 B 00:39:35 Yes
+11 D 00:42:32 No - Run-time Error
+37 A 00:46:43 Yes
+12 A 00:46:48 Yes
+16 A 00:49:01 No - Compilation Error
+2 A 00:49:39 Yes
+5 D 00:49:43 Yes
+38 A 00:50:58 No - Wrong Answer
+39 A 00:52:04 Yes
+32 D 00:53:27 Yes
+44 A 00:54:33 No - Run-time Error
+11 D 00:54:41 Yes
+3 E 00:55:17 No - Wrong Answer
+45 B 00:55:30 Yes
+13 A 00:55:33 No - Run-time Error
+38 A 00:55:44 Yes
+9 D 00:55:50 No - Compilation Error
+45 A 00:56:09 Yes
+41 B 00:56:37 Yes
+41 A 00:56:52 No - Compilation Error
+13 A 00:58:32 No - Run-time Error
+3 E 00:58:45 No - Wrong Answer
+27 D 01:00:04 No - Run-time Error
+30 D 01:00:11 Yes
+13 A 01:00:25 No - Run-time Error
+19 B 01:00:26 No - Wrong Answer
+35 A 01:00:31 No - Wrong Answer
+35 A 01:00:45 No - Wrong Answer
+35 A 01:00:59 No - Wrong Answer
+15 H 01:01:30 Yes
+16 A 01:01:37 No - Compilation Error
+44 A 01:01:42 Yes
+35 A 01:01:49 No - Wrong Answer
+50 A 01:02:11 Yes
+24 E 01:02:54 Yes
+27 D 01:03:15 No - Run-time Error
+49 A 01:03:19 Yes
+49 D 01:03:34 Yes
+13 A 01:03:59 No - Run-time Error
+2 B 01:04:17 Yes
+9 D 01:04:42 Yes
+31 A 01:07:51 No - Wrong Answer
+35 A 01:07:52 No - Wrong Answer
+3 E 01:07:53 Yes
+30 A 01:08:18 Yes
+41 A 01:09:08 Yes
+4 A 01:10:12 No - Wrong Answer
+14 G 01:10:16 Yes
+15 E 01:10:33 No - Wrong Answer
+19 B 01:10:56 No - Wrong Answer
+40 A 01:11:10 No - Wrong Answer
+35 A 01:12:33 No - Wrong Answer
+4 A 01:12:43 Yes
+45 D 01:13:29 Yes
+16 A 01:14:08 No - Compilation Error
+50 B 01:14:34 Yes
+36 B 01:14:35 Yes
+13 A 01:15:18 Yes
+10 D 01:16:50 Yes
+27 B 01:17:10 Yes
+44 D 01:18:21 No - Run-time Error
+15 E 01:20:33 Yes
+21 G 01:20:49 Yes
+16 A 01:21:00 No - Compilation Error
+36 A 01:22:20 Yes
+41 D 01:24:20 Yes
+2 D 01:24:31 No - Wrong Answer
+48 A 01:25:41 Yes
+11 E 01:26:23 No - Wrong Answer
+34 D 01:27:11 No - Wrong Answer
+12 B 01:27:22 Yes
+4 B 01:28:34 Yes
+44 D 01:28:37 No - Run-time Error
+19 B 01:30:31 No - Wrong Answer
+24 G 01:31:04 Yes
+26 A 01:31:09 No - Compilation Error
+26 A 01:32:03 No - Compilation Error
+23 D 01:32:44 Yes
+33 G 01:32:57 No - Wrong Answer
+46 D 01:33:26 No - Compilation Error
+26 A 01:35:09 No - Wrong Answer
+27 D 01:36:31 No - Compilation Error
+11 E 01:36:41 Yes
+15 G 01:37:23 No - Wrong Answer
+30 E 01:38:00 Yes
+40 A 01:38:18 No - Wrong Answer
+48 B 01:39:39 Yes
+36 D 01:39:42 Yes
+43 B 01:39:49 No - Wrong Answer
+35 A 01:40:07 No - Wrong Answer
+5 G 01:40:12 Yes
+34 D 01:41:27 Yes
+4 D 01:41:38 No - Wrong Answer
+31 B 01:42:00 Yes
+44 D 01:44:08 Yes
+51 D 01:45:03 Yes
+39 B 01:45:54 Yes
+39 B 01:46:05 Yes
+27 D 01:50:26 No - Compilation Error
+23 A 01:51:21 Yes
+4 D 01:51:22 Yes
+46 D 01:51:44 No - Compilation Error
+31 A 01:52:31 No - Run-time Error
+46 B 01:52:45 Yes
+13 D 01:53:01 No - Wrong Answer
+13 D 01:56:56 No - Wrong Answer
+27 D 01:56:57 No - Compilation Error
+43 B 01:57:02 No - Wrong Answer
+13 D 01:57:45 Yes
+37 D 01:57:50 No - Wrong Answer
+11 G 01:57:59 Yes
+33 E 01:58:31 Yes
+35 A 02:03:18 Yes
+13 D 02:03:36 Yes
+36 E 02:04:25 No - Wrong Answer
+9 G 02:04:41 Yes
+3 G 02:07:58 Yes
+2 D 02:08:47 Yes
+43 G 02:09:52 Yes
+5 I 02:10:57 Yes
+36 E 02:11:28 Yes
+38 B 02:11:37 Yes
+27 D 02:12:50 No - Compilation Error
+43 H 02:13:39 No - Compilation Error
+15 G 02:14:36 Yes
+10 B 02:17:27 Yes
+12 D 02:18:09 Yes
+41 E 02:22:10 No - Wrong Answer
+28 A 02:23:15 No - Presentation Error
+36 G 02:24:24 Yes
+28 A 02:24:48 Yes
+41 E 02:26:30 Yes
+48 D 02:27:10 Yes
+37 D 02:27:22 No - Wrong Answer
+43 A 02:28:06 Yes
+19 D 02:28:08 No - Compilation Error
+32 E 02:29:11 No - Wrong Answer
+14 H 02:29:42 No - Time Limit Exceeded
+19 D 02:30:46 Yes
+23 B 02:31:17 No - Wrong Answer
+37 D 02:32:15 Yes
+50 D 02:33:02 Yes
+26 A 02:35:14 No - Wrong Answer
+43 A 02:35:22 Yes
+31 E 02:35:46 No - Wrong Answer
+28 B 02:36:07 No - Wrong Answer
+39 D 02:38:54 Yes
+31 E 02:39:04 No - Wrong Answer
+43 G 02:39:11 No - Wrong Answer
+4 E 02:40:08 No - Wrong Answer
+14 I 02:40:32 Yes
+16 D 02:40:34 No - Time Limit Exceeded
+52 D 02:40:44 Yes
+23 B 02:41:32 No - Wrong Answer
+21 E 02:41:34 No - Wrong Answer
+27 D 02:42:06 No - Compilation Error
+17 A 02:43:51 No - Wrong Answer
+15 I 02:44:34 Yes
+14 H 02:45:10 Yes
+23 B 02:45:57 No - Wrong Answer
+4 E 02:46:02 Yes
+24 I 02:47:04 Yes
+17 A 02:48:09 No - Wrong Answer
+33 G 02:48:16 No - Wrong Answer
+16 D 02:48:50 No - Compilation Error
+32 E 02:49:02 No - Wrong Answer
+27 D 02:49:12 Yes
+16 A 02:49:47 Yes
+46 A 02:49:55 No - Wrong Answer
+40 A 02:50:21 No - Wrong Answer
+43 G 02:50:42 Yes
+26 A 02:51:42 Yes
+32 E 02:52:21 Yes
+44 G 02:52:44 No - Wrong Answer
+42 D 02:52:46 Yes
+24 H 02:52:48 No - Compilation Error
+28 B 02:52:56 No - Wrong Answer
+21 E 02:53:16 Yes
+17 A 02:53:22 No - Wrong Answer
+23 B 02:53:35 No - Wrong Answer
+2 E 02:54:35 No - Wrong Answer
+41 G 02:56:09 No - Wrong Answer
+43 D 02:56:19 No - Wrong Answer
+16 D 02:56:27 No - Compilation Error
+9 E 02:58:02 No - Wrong Answer
+38 E 02:58:18 No - Compilation Error
+52 A 02:58:59 No - Wrong Answer
+43 D 03:01:20 No - Compilation Error
+44 G 03:01:21 No - Wrong Answer
+2 E 03:02:42 No - Wrong Answer
+26 D 03:03:56 No - Wrong Answer
+24 H 03:05:38 Yes
+29 B 03:07:17 No - Compilation Error
+49 H 03:08:16 No - Compilation Error
+9 E 03:08:38 No - Wrong Answer
+16 D 03:09:08 No - Run-time Error
+29 B 03:09:14 Yes
+10 E 03:09:20 No - Wrong Answer
+35 D 03:09:43 No - Wrong Answer
+5 E 03:09:59 No - Wrong Answer
+34 G 03:11:15 No - Wrong Answer
+43 D 03:11:17 Yes
+41 G 03:13:05 No - Wrong Answer
+44 G 03:13:23 No - Wrong Answer
+27 A 03:13:25 No - Wrong Answer
+26 A 03:14:30 No - Wrong Answer
+26 D 03:14:45 Yes
+31 D 03:14:55 No - Run-time Error
+45 E 03:15:02 Yes
+27 A 03:15:24 No - Wrong Answer
+26 A 03:16:04 Yes
+35 D 03:16:18 No - Wrong Answer
+2 E 03:16:42 Yes
+31 D 03:17:07 Yes
+10 E 03:17:21 No - Wrong Answer
+9 E 03:17:38 No - Wrong Answer
+46 A 03:17:59 Yes
+13 B 03:19:38 No - Wrong Answer
+47 D 03:19:43 No - Wrong Answer
+10 E 03:20:01 No - Wrong Answer
+5 E 03:20:28 Yes
+50 E 03:20:46 No - Wrong Answer
+9 E 03:22:11 No - Wrong Answer
+16 D 03:22:35 No - Run-time Error
+10 E 03:22:54 Yes
+43 B 03:24:40 Yes
+50 E 03:24:52 Yes
+49 B 03:24:56 Yes
+38 D 03:24:57 No - Wrong Answer
+31 A 03:25:47 No - Wrong Answer
+19 B 03:27:42 Yes
+27 A 03:28:47 Yes
+36 I 03:29:30 Yes
+45 G 03:31:28 Yes
+31 E 03:32:04 No - Wrong Answer
+39 G 03:32:07 No - Wrong Answer
+22 A 03:32:39 No - Compilation Error
+9 E 03:32:52 No - Wrong Answer
+51 A 03:33:12 No - Wrong Answer
+4 G 03:34:20 Yes
+51 A 03:34:58 Yes
+17 A 03:35:36 No - Time Limit Exceeded
+52 A 03:35:52 Yes
+9 E 03:36:29 Yes
+47 D 03:36:50 No - Wrong Answer
+35 D 03:37:34 Yes
+38 D 03:37:48 No - Wrong Answer
+13 B 03:37:59 Yes
+21 I 03:38:09 Yes
+41 G 03:38:56 Yes
+50 G 03:39:16 Yes
+38 D 03:39:30 Yes
+39 G 03:39:54 No - Wrong Answer
+5 H 03:40:14 Yes
+44 B 03:40:42 No - Wrong Answer
+47 D 03:41:04 Yes
+2 G 03:41:11 No - Wrong Answer
+29 A 03:42:06 No - Compilation Error
+16 D 03:42:48 No - Compilation Error
+17 B 03:43:32 Yes
+28 D 03:44:05 No - Wrong Answer
+29 A 03:45:01 No - Compilation Error
+28 B 03:45:05 No - Wrong Answer
+28 D 03:45:16 No - Wrong Answer
+46 G 03:46:12 No - Wrong Answer
+28 D 03:47:29 Yes
+22 A 03:47:59 Yes
+28 D 03:48:49 Yes
+3 I 03:49:02 Yes
+47 A 03:49:19 No - Run-time Error
+51 F 03:49:25 No - Compilation Error
+21 H 03:49:36 Yes
+23 E 03:50:14 No - Wrong Answer
+29 A 03:50:21 No - Compilation Error
+47 A 03:51:41 No - Run-time Error
+29 A 03:52:28 Yes
+23 E 03:53:20 No - Wrong Answer
+35 B 03:53:35 Yes
+28 B 03:53:58 No - Wrong Answer
+48 G 03:53:59 No - Wrong Answer
+24 F 03:54:00 No - Wrong Answer
+37 B 03:55:13 No - Wrong Answer
+15 F 03:55:14 No - Wrong Answer
+2 H 03:55:31 No - Compilation Error
+19 E 03:55:35 Yes
+2 H 03:55:55 No - Compilation Error
+40 A 03:55:56 No - Wrong Answer
+3 H 03:57:19 Yes
+31 F 03:57:23 No - Compilation Error
+52 B 03:58:50 No - Wrong Answer
+17 A 03:59:26 Yes
+52 10 337
+1 A 00:00:01 Yes
+6 A 00:00:02 Yes
+7 A 00:00:03 Yes
+8 A 00:00:04 Yes
+18 A 00:00:05 Yes
+20 A 00:00:06 Yes
+25 A 00:00:08 Yes
+40 A 00:00:10 Yes
+1 F 04:10:01 Yes
+2 C 03:22:01 Yes
+3 J 03:25:01 Yes
+24 F 03:07:02 Yes
+24 A 00:07:02 Yes
+15 B 00:08:02 Yes
+14 B 00:08:48 Yes
+32 B 00:10:18 Yes
+3 A 00:10:31 Yes
+5 B 00:12:13 Yes
+15 A 00:15:07 Yes
+14 A 00:15:31 Yes
+21 B 00:15:40 Yes
+11 B 00:16:14 Yes
+21 A 00:17:28 Yes
+34 A 00:18:21 Yes
+24 B 00:18:22 Yes
+15 D 00:18:26 Yes
+33 B 00:18:28 Yes
+3 B 00:19:28 Yes
+5 A 00:21:03 Yes
+14 D 00:21:38 Yes
+9 A 00:22:35 Yes
+33 A 00:22:52 Yes
+11 A 00:23:43 Yes
+32 A 00:24:30 Yes
+30 B 00:26:06 Yes
+24 D 00:27:26 Yes
+21 D 00:27:28 Yes
+34 B 00:28:51 Yes
+3 D 00:29:20 No - Wrong Answer
+33 D 00:29:52 Yes
+2 D 00:32:26 No - Wrong Answer
+28 A 00:33:53 No - Run-time Error
+30 A 00:34:34 No - Wrong Answer
+14 E 00:36:16 Yes
+10 A 00:37:03 Yes
+19 A 00:38:24 Yes
+9 B 00:39:35 Yes
+11 D 00:42:32 No - Run-time Error
+37 A 00:46:43 Yes
+12 A 00:46:48 Yes
+16 A 00:49:01 No - Compilation Error
+2 A 00:49:39 Yes
+5 D 00:49:43 Yes
+38 A 00:50:58 No - Wrong Answer
+39 A 00:52:04 Yes
+32 D 00:53:27 Yes
+44 A 00:54:33 No - Run-time Error
+11 D 00:54:41 Yes
+3 E 00:55:17 No - Wrong Answer
+45 B 00:55:30 Yes
+13 A 00:55:33 No - Run-time Error
+38 A 00:55:44 Yes
+9 D 00:55:50 No - Compilation Error
+45 A 00:56:09 Yes
+41 B 00:56:37 Yes
+41 A 00:56:52 No - Compilation Error
+13 A 00:58:32 No - Run-time Error
+3 E 00:58:45 No - Wrong Answer
+27 D 01:00:04 No - Run-time Error
+30 D 01:00:11 Yes
+13 A 01:00:25 No - Run-time Error
+19 B 01:00:26 No - Wrong Answer
+35 A 01:00:31 No - Wrong Answer
+35 A 01:00:45 No - Wrong Answer
+35 A 01:00:59 No - Wrong Answer
+15 H 01:01:30 Yes
+16 A 01:01:37 No - Compilation Error
+44 A 01:01:42 Yes
+35 A 01:01:49 No - Wrong Answer
+50 A 01:02:11 Yes
+24 E 01:02:54 Yes
+27 D 01:03:15 No - Run-time Error
+49 A 01:03:19 Yes
+49 D 01:03:34 Yes
+13 A 01:03:59 No - Run-time Error
+2 B 01:04:17 Yes
+9 D 01:04:42 Yes
+31 A 01:07:51 No - Wrong Answer
+35 A 01:07:52 No - Wrong Answer
+3 E 01:07:53 Yes
+30 A 01:08:18 Yes
+41 A 01:09:08 Yes
+4 A 01:10:12 No - Wrong Answer
+14 G 01:10:16 Yes
+15 E 01:10:33 No - Wrong Answer
+19 B 01:10:56 No - Wrong Answer
+40 A 01:11:10 No - Wrong Answer
+35 A 01:12:33 No - Wrong Answer
+4 A 01:12:43 Yes
+45 D 01:13:29 Yes
+16 A 01:14:08 No - Compilation Error
+50 B 01:14:34 Yes
+36 B 01:14:35 Yes
+13 A 01:15:18 Yes
+10 D 01:16:50 Yes
+27 B 01:17:10 Yes
+44 D 01:18:21 No - Run-time Error
+15 E 01:20:33 Yes
+21 G 01:20:49 Yes
+16 A 01:21:00 No - Compilation Error
+36 A 01:22:20 Yes
+41 D 01:24:20 Yes
+2 D 01:24:31 No - Wrong Answer
+48 A 01:25:41 Yes
+11 E 01:26:23 No - Wrong Answer
+34 D 01:27:11 No - Wrong Answer
+12 B 01:27:22 Yes
+4 B 01:28:34 Yes
+44 D 01:28:37 No - Run-time Error
+19 B 01:30:31 No - Wrong Answer
+24 G 01:31:04 Yes
+26 A 01:31:09 No - Compilation Error
+26 A 01:32:03 No - Compilation Error
+23 D 01:32:44 Yes
+33 G 01:32:57 No - Wrong Answer
+46 D 01:33:26 No - Compilation Error
+26 A 01:35:09 No - Wrong Answer
+27 D 01:36:31 No - Compilation Error
+11 E 01:36:41 Yes
+15 G 01:37:23 No - Wrong Answer
+30 E 01:38:00 Yes
+40 A 01:38:18 No - Wrong Answer
+48 B 01:39:39 Yes
+36 D 01:39:42 Yes
+43 B 01:39:49 No - Wrong Answer
+35 A 01:40:07 No - Wrong Answer
+5 G 01:40:12 Yes
+34 D 01:41:27 Yes
+4 D 01:41:38 No - Wrong Answer
+31 B 01:42:00 Yes
+44 D 01:44:08 Yes
+51 D 01:45:03 Yes
+39 B 01:45:54 Yes
+39 B 01:46:05 Yes
+27 D 01:50:26 No - Compilation Error
+23 A 01:51:21 Yes
+4 D 01:51:22 Yes
+46 D 01:51:44 No - Compilation Error
+31 A 01:52:31 No - Run-time Error
+46 B 01:52:45 Yes
+13 D 01:53:01 No - Wrong Answer
+13 D 01:56:56 No - Wrong Answer
+27 D 01:56:57 No - Compilation Error
+43 B 01:57:02 No - Wrong Answer
+13 D 01:57:45 Yes
+37 D 01:57:50 No - Wrong Answer
+11 G 01:57:59 Yes
+33 E 01:58:31 Yes
+35 A 02:03:18 Yes
+13 D 02:03:36 Yes
+36 E 02:04:25 No - Wrong Answer
+9 G 02:04:41 Yes
+3 G 02:07:58 Yes
+2 D 02:08:47 Yes
+43 G 02:09:52 Yes
+5 I 02:10:57 Yes
+36 E 02:11:28 Yes
+38 B 02:11:37 Yes
+27 D 02:12:50 No - Compilation Error
+43 H 02:13:39 No - Compilation Error
+15 G 02:14:36 Yes
+10 B 02:17:27 Yes
+12 D 02:18:09 Yes
+41 E 02:22:10 No - Wrong Answer
+28 A 02:23:15 No - Presentation Error
+36 G 02:24:24 Yes
+28 A 02:24:48 Yes
+41 E 02:26:30 Yes
+48 D 02:27:10 Yes
+37 D 02:27:22 No - Wrong Answer
+43 A 02:28:06 Yes
+19 D 02:28:08 No - Compilation Error
+32 E 02:29:11 No - Wrong Answer
+14 H 02:29:42 No - Time Limit Exceeded
+19 D 02:30:46 Yes
+23 B 02:31:17 No - Wrong Answer
+37 D 02:32:15 Yes
+50 D 02:33:02 Yes
+26 A 02:35:14 No - Wrong Answer
+43 A 02:35:22 Yes
+31 E 02:35:46 No - Wrong Answer
+28 B 02:36:07 No - Wrong Answer
+39 D 02:38:54 Yes
+31 E 02:39:04 No - Wrong Answer
+43 G 02:39:11 No - Wrong Answer
+4 E 02:40:08 No - Wrong Answer
+14 I 02:40:32 Yes
+16 D 02:40:34 No - Time Limit Exceeded
+52 D 02:40:44 Yes
+23 B 02:41:32 No - Wrong Answer
+21 E 02:41:34 No - Wrong Answer
+27 D 02:42:06 No - Compilation Error
+17 A 02:43:51 No - Wrong Answer
+15 I 02:44:34 Yes
+14 H 02:45:10 Yes
+23 B 02:45:57 No - Wrong Answer
+4 E 02:46:02 Yes
+24 I 02:47:04 Yes
+17 A 02:48:09 No - Wrong Answer
+33 G 02:48:16 No - Wrong Answer
+16 D 02:48:50 No - Compilation Error
+32 E 02:49:02 No - Wrong Answer
+27 D 02:49:12 Yes
+16 A 02:49:47 Yes
+46 A 02:49:55 No - Wrong Answer
+40 A 02:50:21 No - Wrong Answer
+43 G 02:50:42 Yes
+26 A 02:51:42 Yes
+32 E 02:52:21 Yes
+44 G 02:52:44 No - Wrong Answer
+42 D 02:52:46 Yes
+24 H 02:52:48 No - Compilation Error
+28 B 02:52:56 No - Wrong Answer
+21 E 02:53:16 Yes
+17 A 02:53:22 No - Wrong Answer
+23 B 02:53:35 No - Wrong Answer
+2 E 02:54:35 No - Wrong Answer
+41 G 02:56:09 No - Wrong Answer
+43 D 02:56:19 No - Wrong Answer
+16 D 02:56:27 No - Compilation Error
+9 E 02:58:02 No - Wrong Answer
+38 E 02:58:18 No - Compilation Error
+52 A 02:58:59 No - Wrong Answer
+43 D 03:01:20 No - Compilation Error
+44 G 03:01:21 No - Wrong Answer
+2 E 03:02:42 No - Wrong Answer
+26 D 03:03:56 No - Wrong Answer
+24 H 03:05:38 Yes
+29 B 03:07:17 No - Compilation Error
+49 H 03:08:16 No - Compilation Error
+9 E 03:08:38 No - Wrong Answer
+16 D 03:09:08 No - Run-time Error
+29 B 03:09:14 Yes
+10 E 03:09:20 No - Wrong Answer
+35 D 03:09:43 No - Wrong Answer
+5 E 03:09:59 No - Wrong Answer
+34 G 03:11:15 No - Wrong Answer
+43 D 03:11:17 Yes
+41 G 03:13:05 No - Wrong Answer
+44 G 03:13:23 No - Wrong Answer
+27 A 03:13:25 No - Wrong Answer
+26 A 03:14:30 No - Wrong Answer
+26 D 03:14:45 Yes
+31 D 03:14:55 No - Run-time Error
+45 E 03:15:02 Yes
+27 A 03:15:24 No - Wrong Answer
+26 A 03:16:04 Yes
+35 D 03:16:18 No - Wrong Answer
+2 E 03:16:42 Yes
+31 D 03:17:07 Yes
+10 E 03:17:21 No - Wrong Answer
+9 E 03:17:38 No - Wrong Answer
+46 A 03:17:59 Yes
+13 B 03:19:38 No - Wrong Answer
+47 D 03:19:43 No - Wrong Answer
+10 E 03:20:01 No - Wrong Answer
+5 E 03:20:28 Yes
+50 E 03:20:46 No - Wrong Answer
+9 E 03:22:11 No - Wrong Answer
+16 D 03:22:35 No - Run-time Error
+10 E 03:22:54 Yes
+43 B 03:24:40 Yes
+50 E 03:24:52 Yes
+49 B 03:24:56 Yes
+38 D 03:24:57 No - Wrong Answer
+31 A 03:25:47 No - Wrong Answer
+19 B 03:27:42 Yes
+27 A 03:28:47 Yes
+36 I 03:29:30 Yes
+45 G 03:31:28 Yes
+31 E 03:32:04 No - Wrong Answer
+39 G 03:32:07 No - Wrong Answer
+22 A 03:32:39 No - Compilation Error
+9 E 03:32:52 No - Wrong Answer
+51 A 03:33:12 No - Wrong Answer
+4 G 03:34:20 Yes
+51 A 03:34:58 Yes
+17 A 03:35:36 No - Time Limit Exceeded
+52 A 03:35:52 Yes
+9 E 03:36:29 Yes
+47 D 03:36:50 No - Wrong Answer
+35 D 03:37:34 Yes
+38 D 03:37:48 No - Wrong Answer
+13 B 03:37:59 Yes
+21 I 03:38:09 Yes
+41 G 03:38:56 Yes
+50 G 03:39:16 Yes
+38 D 03:39:30 Yes
+39 G 03:39:54 No - Wrong Answer
+5 H 03:40:14 Yes
+44 B 03:40:42 No - Wrong Answer
+47 D 03:41:04 Yes
+2 G 03:41:11 No - Wrong Answer
+29 A 03:42:06 No - Compilation Error
+16 D 03:42:48 No - Compilation Error
+17 B 03:43:32 Yes
+28 D 03:44:05 No - Wrong Answer
+29 A 03:45:01 No - Compilation Error
+28 B 03:45:05 No - Wrong Answer
+28 D 03:45:16 No - Wrong Answer
+46 G 03:46:12 No - Wrong Answer
+28 D 03:47:29 Yes
+22 A 03:47:59 Yes
+28 D 03:48:49 Yes
+3 I 03:49:02 Yes
+47 A 03:49:19 No - Run-time Error
+51 F 03:49:25 No - Compilation Error
+21 H 03:49:36 Yes
+23 E 03:50:14 No - Wrong Answer
+29 A 03:50:21 No - Compilation Error
+47 A 03:51:41 No - Run-time Error
+29 A 03:52:28 Yes
+23 E 03:53:20 No - Wrong Answer
+35 B 03:53:35 Yes
+28 B 03:53:58 No - Wrong Answer
+48 G 03:53:59 No - Wrong Answer
+24 F 03:54:00 No - Wrong Answer
+37 B 03:55:13 No - Wrong Answer
+15 F 03:55:14 No - Wrong Answer
+2 H 03:55:31 No - Compilation Error
+19 E 03:55:35 Yes
+2 H 03:55:55 No - Compilation Error
+40 A 03:55:56 No - Wrong Answer
+3 H 03:57:19 Yes
+31 F 03:57:23 No - Compilation Error
+52 B 03:58:50 No - Wrong Answer
+17 A 03:59:26 Yes
+52 10 325
+24 A 00:07:02 Yes
+15 B 00:08:02 Yes
+14 B 00:08:48 Yes
+32 B 00:10:18 Yes
+3 A 00:10:31 Yes
+5 B 00:12:13 Yes
+15 A 00:15:07 Yes
+14 A 00:15:31 Yes
+21 B 00:15:40 Yes
+11 B 00:16:14 Yes
+21 A 00:17:28 Yes
+34 A 00:18:21 Yes
+24 B 00:18:22 Yes
+15 D 00:18:26 Yes
+33 B 00:18:28 Yes
+3 B 00:19:28 Yes
+5 A 00:21:03 Yes
+14 D 00:21:38 Yes
+9 A 00:22:35 Yes
+33 A 00:22:52 Yes
+11 A 00:23:43 Yes
+32 A 00:24:30 Yes
+30 B 00:26:06 Yes
+24 D 00:27:26 Yes
+21 D 00:27:28 Yes
+34 B 00:28:51 Yes
+3 D 00:29:20 No - Wrong Answer
+33 D 00:29:52 Yes
+2 D 00:32:26 No - Wrong Answer
+28 A 00:33:53 No - Run-time Error
+30 A 00:34:34 No - Wrong Answer
+14 E 00:36:16 Yes
+10 A 00:37:03 Yes
+19 A 00:38:24 Yes
+9 B 00:39:35 Yes
+11 D 00:42:32 No - Run-time Error
+37 A 00:46:43 Yes
+12 A 00:46:48 Yes
+16 A 00:49:01 No - Compilation Error
+2 A 00:49:39 Yes
+5 D 00:49:43 Yes
+38 A 00:50:58 No - Wrong Answer
+39 A 00:52:04 Yes
+32 D 00:53:27 Yes
+44 A 00:54:33 No - Run-time Error
+11 D 00:54:41 Yes
+3 E 00:55:17 No - Wrong Answer
+45 B 00:55:30 Yes
+13 A 00:55:33 No - Run-time Error
+38 A 00:55:44 Yes
+9 D 00:55:50 No - Compilation Error
+45 A 00:56:09 Yes
+41 B 00:56:37 Yes
+41 A 00:56:52 No - Compilation Error
+13 A 00:58:32 No - Run-time Error
+3 E 00:58:45 No - Wrong Answer
+27 D 01:00:04 No - Run-time Error
+30 D 01:00:11 Yes
+13 A 01:00:25 No - Run-time Error
+19 B 01:00:26 No - Wrong Answer
+35 A 01:00:31 No - Wrong Answer
+35 A 01:00:45 No - Wrong Answer
+35 A 01:00:59 No - Wrong Answer
+15 H 01:01:30 Yes
+16 A 01:01:37 No - Compilation Error
+44 A 01:01:42 Yes
+35 A 01:01:49 No - Wrong Answer
+50 A 01:02:11 Yes
+24 E 01:02:54 Yes
+27 D 01:03:15 No - Run-time Error
+49 A 01:03:19 Yes
+49 D 01:03:34 Yes
+13 A 01:03:59 No - Run-time Error
+2 B 01:04:17 Yes
+9 D 01:04:42 Yes
+31 A 01:07:51 No - Wrong Answer
+35 A 01:07:52 No - Wrong Answer
+3 E 01:07:53 Yes
+30 A 01:08:18 Yes
+41 A 01:09:08 Yes
+4 A 01:10:12 No - Wrong Answer
+14 G 01:10:16 Yes
+15 E 01:10:33 No - Wrong Answer
+19 B 01:10:56 No - Wrong Answer
+40 A 01:11:10 No - Wrong Answer
+35 A 01:12:33 No - Wrong Answer
+4 A 01:12:43 Yes
+45 D 01:13:29 Yes
+16 A 01:14:08 No - Compilation Error
+50 B 01:14:34 Yes
+36 B 01:14:35 Yes
+13 A 01:15:18 Yes
+10 D 01:16:50 Yes
+27 B 01:17:10 Yes
+44 D 01:18:21 No - Run-time Error
+15 E 01:20:33 Yes
+21 G 01:20:49 Yes
+16 A 01:21:00 No - Compilation Error
+36 A 01:22:20 Yes
+41 D 01:24:20 Yes
+2 D 01:24:31 No - Wrong Answer
+48 A 01:25:41 Yes
+11 E 01:26:23 No - Wrong Answer
+34 D 01:27:11 No - Wrong Answer
+12 B 01:27:22 Yes
+4 B 01:28:34 Yes
+44 D 01:28:37 No - Run-time Error
+19 B 01:30:31 No - Wrong Answer
+24 G 01:31:04 Yes
+26 A 01:31:09 No - Compilation Error
+26 A 01:32:03 No - Compilation Error
+23 D 01:32:44 Yes
+33 G 01:32:57 No - Wrong Answer
+46 D 01:33:26 No - Compilation Error
+26 A 01:35:09 No - Wrong Answer
+27 D 01:36:31 No - Compilation Error
+11 E 01:36:41 Yes
+15 G 01:37:23 No - Wrong Answer
+30 E 01:38:00 Yes
+40 A 01:38:18 No - Wrong Answer
+48 B 01:39:39 Yes
+36 D 01:39:42 Yes
+43 B 01:39:49 No - Wrong Answer
+35 A 01:40:07 No - Wrong Answer
+5 G 01:40:12 Yes
+34 D 01:41:27 Yes
+4 D 01:41:38 No - Wrong Answer
+31 B 01:42:00 Yes
+44 D 01:44:08 Yes
+51 D 01:45:03 Yes
+39 B 01:45:54 Yes
+39 B 01:46:05 Yes
+27 D 01:50:26 No - Compilation Error
+23 A 01:51:21 Yes
+4 D 01:51:22 Yes
+46 D 01:51:44 No - Compilation Error
+31 A 01:52:31 No - Run-time Error
+46 B 01:52:45 Yes
+13 D 01:53:01 No - Wrong Answer
+13 D 01:56:56 No - Wrong Answer
+27 D 01:56:57 No - Compilation Error
+43 B 01:57:02 No - Wrong Answer
+13 D 01:57:45 Yes
+37 D 01:57:50 No - Wrong Answer
+11 G 01:57:59 Yes
+33 E 01:58:31 Yes
+35 A 02:03:18 Yes
+13 D 02:03:36 Yes
+36 E 02:04:25 No - Wrong Answer
+9 G 02:04:41 Yes
+3 G 02:07:58 Yes
+2 D 02:08:47 Yes
+43 G 02:09:52 Yes
+5 I 02:10:57 Yes
+36 E 02:11:28 Yes
+38 B 02:11:37 Yes
+27 D 02:12:50 No - Compilation Error
+43 H 02:13:39 No - Compilation Error
+15 G 02:14:36 Yes
+10 B 02:17:27 Yes
+12 D 02:18:09 Yes
+41 E 02:22:10 No - Wrong Answer
+28 A 02:23:15 No - Presentation Error
+36 G 02:24:24 Yes
+28 A 02:24:48 Yes
+41 E 02:26:30 Yes
+48 D 02:27:10 Yes
+37 D 02:27:22 No - Wrong Answer
+43 A 02:28:06 Yes
+19 D 02:28:08 No - Compilation Error
+32 E 02:29:11 No - Wrong Answer
+14 H 02:29:42 No - Time Limit Exceeded
+19 D 02:30:46 Yes
+23 B 02:31:17 No - Wrong Answer
+37 D 02:32:15 Yes
+50 D 02:33:02 Yes
+26 A 02:35:14 No - Wrong Answer
+43 A 02:35:22 Yes
+31 E 02:35:46 No - Wrong Answer
+28 B 02:36:07 No - Wrong Answer
+39 D 02:38:54 Yes
+31 E 02:39:04 No - Wrong Answer
+43 G 02:39:11 No - Wrong Answer
+4 E 02:40:08 No - Wrong Answer
+14 I 02:40:32 Yes
+16 D 02:40:34 No - Time Limit Exceeded
+52 D 02:40:44 Yes
+23 B 02:41:32 No - Wrong Answer
+21 E 02:41:34 No - Wrong Answer
+27 D 02:42:06 No - Compilation Error
+17 A 02:43:51 No - Wrong Answer
+15 I 02:44:34 Yes
+14 H 02:45:10 Yes
+23 B 02:45:57 No - Wrong Answer
+4 E 02:46:02 Yes
+24 I 02:47:04 Yes
+17 A 02:48:09 No - Wrong Answer
+33 G 02:48:16 No - Wrong Answer
+16 D 02:48:50 No - Compilation Error
+32 E 02:49:02 No - Wrong Answer
+27 D 02:49:12 Yes
+16 A 02:49:47 Yes
+46 A 02:49:55 No - Wrong Answer
+40 A 02:50:21 No - Wrong Answer
+43 G 02:50:42 Yes
+26 A 02:51:42 Yes
+32 E 02:52:21 Yes
+44 G 02:52:44 No - Wrong Answer
+42 D 02:52:46 Yes
+24 H 02:52:48 No - Compilation Error
+28 B 02:52:56 No - Wrong Answer
+21 E 02:53:16 Yes
+17 A 02:53:22 No - Wrong Answer
+23 B 02:53:35 No - Wrong Answer
+2 E 02:54:35 No - Wrong Answer
+41 G 02:56:09 No - Wrong Answer
+43 D 02:56:19 No - Wrong Answer
+16 D 02:56:27 No - Compilation Error
+9 E 02:58:02 No - Wrong Answer
+38 E 02:58:18 No - Compilation Error
+52 A 02:58:59 No - Wrong Answer
+43 D 03:01:20 No - Compilation Error
+44 G 03:01:21 No - Wrong Answer
+2 E 03:02:42 No - Wrong Answer
+26 D 03:03:56 No - Wrong Answer
+24 H 03:05:38 Yes
+29 B 03:07:17 No - Compilation Error
+49 H 03:08:16 No - Compilation Error
+9 E 03:08:38 No - Wrong Answer
+16 D 03:09:08 No - Run-time Error
+29 B 03:09:14 Yes
+10 E 03:09:20 No - Wrong Answer
+35 D 03:09:43 No - Wrong Answer
+5 E 03:09:59 No - Wrong Answer
+34 G 03:11:15 No - Wrong Answer
+43 D 03:11:17 Yes
+41 G 03:13:05 No - Wrong Answer
+44 G 03:13:23 No - Wrong Answer
+27 A 03:13:25 No - Wrong Answer
+26 A 03:14:30 No - Wrong Answer
+26 D 03:14:45 Yes
+31 D 03:14:55 No - Run-time Error
+45 E 03:15:02 Yes
+27 A 03:15:24 No - Wrong Answer
+26 A 03:16:04 Yes
+35 D 03:16:18 No - Wrong Answer
+2 E 03:16:42 Yes
+31 D 03:17:07 Yes
+10 E 03:17:21 No - Wrong Answer
+9 E 03:17:38 No - Wrong Answer
+46 A 03:17:59 Yes
+13 B 03:19:38 No - Wrong Answer
+47 D 03:19:43 No - Wrong Answer
+10 E 03:20:01 No - Wrong Answer
+5 E 03:20:28 Yes
+50 E 03:20:46 No - Wrong Answer
+9 E 03:22:11 No - Wrong Answer
+16 D 03:22:35 No - Run-time Error
+10 E 03:22:54 Yes
+43 B 03:24:40 Yes
+50 E 03:24:52 Yes
+49 B 03:24:56 Yes
+38 D 03:24:57 No - Wrong Answer
+31 A 03:25:47 No - Wrong Answer
+19 B 03:27:42 Yes
+27 A 03:28:47 Yes
+36 I 03:29:30 Yes
+45 G 03:31:28 Yes
+31 E 03:32:04 No - Wrong Answer
+39 G 03:32:07 No - Wrong Answer
+22 A 03:32:39 No - Compilation Error
+9 E 03:32:52 No - Wrong Answer
+51 A 03:33:12 No - Wrong Answer
+4 G 03:34:20 Yes
+51 A 03:34:58 Yes
+17 A 03:35:36 No - Time Limit Exceeded
+52 A 03:35:52 Yes
+9 E 03:36:29 Yes
+47 D 03:36:50 No - Wrong Answer
+35 D 03:37:34 Yes
+38 D 03:37:48 No - Wrong Answer
+13 B 03:37:59 Yes
+21 I 03:38:09 Yes
+41 G 03:38:56 Yes
+50 G 03:39:16 Yes
+38 D 03:39:30 Yes
+39 G 03:39:54 No - Wrong Answer
+5 H 03:40:14 Yes
+44 B 03:40:42 No - Wrong Answer
+47 D 03:41:04 Yes
+2 G 03:41:11 No - Wrong Answer
+29 A 03:42:06 No - Compilation Error
+16 D 03:42:48 No - Compilation Error
+17 B 03:43:32 Yes
+28 D 03:44:05 No - Wrong Answer
+29 A 03:45:01 No - Compilation Error
+28 B 03:45:05 No - Wrong Answer
+28 D 03:45:16 No - Wrong Answer
+46 G 03:46:12 No - Wrong Answer
+28 D 03:47:29 Yes
+22 A 03:47:59 Yes
+28 D 03:48:49 Yes
+3 I 03:49:02 Yes
+47 A 03:49:19 No - Run-time Error
+51 F 03:49:25 No - Compilation Error
+21 H 03:49:36 Yes
+23 E 03:50:14 No - Wrong Answer
+29 A 03:50:21 No - Compilation Error
+47 A 03:51:41 No - Run-time Error
+29 A 03:52:28 Yes
+23 E 03:53:20 No - Wrong Answer
+35 B 03:53:35 Yes
+28 B 03:53:58 No - Wrong Answer
+48 G 03:53:59 No - Wrong Answer
+24 F 03:54:00 No - Wrong Answer
+37 B 03:55:13 No - Wrong Answer
+15 F 03:55:14 No - Wrong Answer
+2 H 03:55:31 No - Compilation Error
+19 E 03:55:35 Yes
+2 H 03:55:55 No - Compilation Error
+40 A 03:55:56 No - Wrong Answer
+3 H 03:57:19 Yes
+31 F 03:57:23 No - Compilation Error
+52 B 03:58:50 No - Wrong Answer
+17 A 03:59:26 Yes
+0 0 0
