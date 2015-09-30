@@ -1,0 +1,97 @@
+24
+
+1 2 3 123
+xxxx
+yyyy
+
+1 2 3 123
+zzzzz
+zzzzz
+
+1 2 3 123
+zzzzz
+xxxxx
+
+1 2 3 321
+zzzyyyy
+zzzyyyy
+
+1 2 3 123
+xxxyyyy
+yyyxxxx
+
+1 2 3 122
+xxxxyyyy
+xxxzyyyy
+
+1 2 3 122
+xxxxzzzzzz
+yyyyyyyyyy
+
+1 2 3 100
+xxxyyy
+xxxxxx
+
+1 2 3 100
+xxxyyyzzz
+xxxyyyzzz
+
+1 2 3 100
+xxxyyyzzz
+zzzyyyxxx
+
+10 9 2 10000
+xxxyyzzzzz
+zzzxxxxxxx
+
+3 2 1 1000
+xyz
+zzy
+
+1 5 9 10101
+xyz
+zzz
+
+1 5 3 1282
+zyx
+yyy
+
+1 4 3 2232
+xyzz
+xxyy
+
+1 1 1 0
+x
+x
+
+1 1 1 0
+x
+y
+
+1 1 1 10
+x
+x
+
+1 2 3 20
+xyz
+xyz
+
+1 2 3 20
+xyz
+zxy
+
+1 2 3 20
+xx
+yz
+
+1 2 3 20
+xy
+yz
+
+1 2 3 20
+xy
+xx
+
+1 2 3 20
+xyz
+xxx
