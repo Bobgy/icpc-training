@@ -23,20 +23,24 @@ typedef vector<int> vi;
 typedef pair<int,int> pii;
 typedef vector<pair<int,int> > vpii;
 typedef double flt;
+
 const int MAXN = 112345;
 const flt PI = acos(-1.0);
 int fcmp(flt x){return fabs(x)<EPS ? 0 : (x<0 ? -1 : 1);}
+
 struct Pt{
     flt x, y;
     Pt(flt x, flt y):x(x), y(y){}
     Pt(){}
     void read() {scanf("%lf%lf",&x,&y);}
+    Pt operator+(Pt r) const {return Pt(x+r.x, y+r.y);}
     Pt operator-(Pt r) const {return Pt(x-r.x, y-r.y);}
-    flt ang() const {return atan2(y, x);}
     flt operator^(Pt r) const {return x*r.y-y*r.x;}
+    flt ang() const {return atan2(y, x);}
     Pt rot(flt a) const {return Pt(cos(a)*x-sin(a)*y, sin(a)*x+cos(a)*y);}
     void print() const {debug("%.4lf %.4lf\n", x, y);}
 } p[MAXN*2];
+
 struct Border;
 struct Edge{
     int u, v, id;
@@ -46,18 +50,18 @@ struct Edge{
     Edge(int u, int v):u(u),v(v){ang=init();}
     Edge(){}
     bool operator<(Edge r) const {return ang<r.ang;}
-    void print() const {
-        debug("%d %d\n", u, v);
-    }
+    void print() const {debug("%d %d\n", u, v);}
 } e[MAXN*2];
-vector<pair<flt, int>> E[MAXN];
-bool vis[MAXN*2], border[MAXN*2];
+
 int n, m, q;
-inline int nxt(int x, int n){
-    return ++x==n ? 0 : x;
-}
+vector<pair<flt, int>> E[MAXN];
+
 vi seq;
-void find_poly(){
+bool vis[MAXN*2], border[MAXN*2];
+//returns vector<vector<Edge ID>> polys in counter-clockwise
+vector<vi> find_poly(){
+    vector<vi> polys;
+    fill(vis,vis+m*2,0);
     rep(i,n)for(auto u: E[i]){
         if(vis[u.Y])continue;
         int j=u.Y;
@@ -65,27 +69,28 @@ void find_poly(){
         do {
             vis[j]=1;
             seq.pb(j);
-            j^=1;
-            auto &ee=E[e[j].u];
-            j=ee[nxt(e[j].id,ee.size())].Y;
+            auto &et=E[e[j^=1].u];
+            j=et[(e[j].id+1)%et.size()].Y;
         } while(!vis[j]);
         flt s=0;
         bool found=0;
+        polys.pb(vi());
         for(auto x: seq){
-            if(!found)found=x==j;
-            if(found)s+=p[e[x].u]^p[e[x].v];
-        }
-        if(s>EPS){
-            found=0;
-            for(auto x: seq){
-                if(!found)found=x==j;
-                if(found)border[x]=1;
+            found = found || x==j;
+            if(found){
+                s+=p[e[x].u]^p[e[x].v];
+                polys.back().pb(x);
             }
         }
+        if(s>EPS){
+            for(auto x: polys.back())border[x]=1;
+        } else polys.pop_back();
     }
+    return polys;
 }
+
 int grp[MAXN];
-void init(){
+void find_connected_components(){
     int cnt=0;
     rep(i,n)if(grp[i]==0){
         queue<int> Q;
@@ -93,7 +98,6 @@ void init(){
         grp[i]=++cnt;
         while(!Q.empty()){
             int x=Q.front();
-            Q.pop();
             for(auto u: E[x]){
                 int y=e[u.Y].v;
                 if(grp[y]==0){
@@ -101,10 +105,11 @@ void init(){
                     grp[y]=cnt;
                 }
             }
+            Q.pop();
         }
     }
 }
-vector<pair<flt, int>> evt;
+
 flt now;
 struct Border{
     int id;
@@ -124,17 +129,21 @@ struct Border{
     Border(int id, flt ang):id(id),ang(ang){}
 };
 set<Border> bd;
+
+vector<pair<flt, int>> evt;
 bool ins[MAXN];
+
 int main(){
+    srand(time(0));
+
     scanf("%d%d%d",&n,&m,&q);
-    default_random_engine gen(chrono::system_clock::now().time_since_epoch().count());
-    uniform_real_distribution<flt> dist(0.0, 2.0*PI);
     rep(i,n)p[i].read();
+
     bool fail;
     flt ang;
     do {
         evt.clear();
-        ang=dist(gen);
+        ang=rand()/65535.0*2.0*PI;
         rep(i,n){
             p[i]=p[i].rot(ang);
             evt.pb(mp(p[i].x, i));
@@ -145,49 +154,53 @@ int main(){
             fail=1;
             break;
         }
+        if(fail)rep(i,n)p[i]=p[i].rot(-ang);
     } while(fail);
 
-    int j=-1;
+    int z=-1;
     rep(i,m){
         int u, v;
         scanf("%d%d",&u,&v);
         --u, --v;
-        e[++j]=Edge(u, v);
-        E[u].pb(mp(e[j].ang, j));
-        e[++j]=Edge(v, u);
-        E[v].pb(mp(e[j].ang, j));
+        e[++z]=Edge(u, v);
+        E[u].pb(mp(e[z].ang, z));
+        e[++z]=Edge(v, u);
+        E[v].pb(mp(e[z].ang, z));
     }
-    ++j;
+    ++z;
+
     rep(i,n){
         sort(all(E[i]));
         rep(j,E[i].size())e[E[i][j].Y].id=j;
     }
+
     find_poly();
+
     rep(i,2*m)if(border[i]&&border[i^1]){
         border[i]=border[i^1]=0;
     }
+
     rep(i,q){
         p[i+n].read();
         p[i+n]=p[i+n].rot(ang);
         evt.pb(mp(p[i+n].x, i+n));
     }
-    init();
     sort(all(evt));
-    memset(vis, 0, sizeof vis);
+
+    find_connected_components();
+
+    fill(vis, vis+2*m, 0);
     for(auto ev: evt){
         int id=ev.Y;
         now=p[id].x;
-        p[n+q]=p[id];
-        p[n+q].x+=10;
-        e[j]=Edge(id, n+q);
-        auto it = bd.lower_bound(Border(j, 0));
+        p[n+q]=p[id]+Pt(10,0);
+        e[z]=Edge(id, n+q);
+        auto it = bd.lower_bound(Border(z, 0));
         bool inside;
         if (it!=bd.end()) {
             Edge &ed=e[it->id];
             inside=p[ed.u].x>p[ed.v].x;
-        } else {
-            inside=0;
-        }
+        } else inside=0;
         if(id>=n){ //query
             ins[id-n]=inside;
         } else { //point
@@ -197,17 +210,12 @@ int main(){
                 break;
             }
             if(flag || !inside || grp[id]==grp[e[it->id].u]){
+                int k;
                 for (auto ed: E[id]) {
-                    if (border[ed.Y^1]^border[ed.Y]) {
-                        int k=border[ed.Y] ? ed.Y : ed.Y^1;
-                        if(vis[k]){
-                            bd.erase(e[k].it);
-                        }
-                    }
+                    if(vis[k=ed.Y]||vis[k^=1])bd.erase(e[k].it);
                 }
                 for (auto ed: E[id]) {
-                    if (border[ed.Y^1]^border[ed.Y]) {
-                        int k=border[ed.Y] ? ed.Y : ed.Y^1;
+                    if (border[k=ed.Y]||border[k^=1]) {
                         if(fcmp(p[e[k].u].x-p[e[k].v].x)==0)continue;
                         if(!vis[k]){
                             auto tmp=bd.insert(Border(k, e[k].u==id ? e[k].ang : e[k^1].ang));
