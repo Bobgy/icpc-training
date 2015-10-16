@@ -15,7 +15,9 @@ using namespace std;
 #define X first
 #define Y second
 #define mp make_pair
-#define EPS 1e-8
+#define EPS 1e-10
+//#undef assert
+//#define assert(x) while(!(x));
 typedef long long LL;
 typedef vector<int> vi;
 typedef pair<int,int> pii;
@@ -32,6 +34,8 @@ struct Pt{
     Pt operator-(Pt r) const {return Pt(x-r.x, y-r.y);}
     flt ang() const {return atan2(y, x);}
     flt operator^(Pt r) const {return x*r.y-y*r.x;}
+    Pt rot(flt a) const {return Pt(cos(a)*x-sin(a)*y, sin(a)*x+cos(a)*y);}
+    void print() const {debug("%.4lf %.4lf\n", x, y);}
 } p[MAXN*2];
 struct Border;
 struct Edge{
@@ -56,9 +60,7 @@ vi seq;
 void find_poly(){
     rep(i,n)for(auto u: E[i]){
         if(vis[u.Y])continue;
-        debug("begin\n");
         int j=u.Y;
-        e[j].print();
         seq.clear();
         do {
             vis[j]=1;
@@ -66,7 +68,6 @@ void find_poly(){
             j^=1;
             auto &ee=E[e[j].u];
             j=ee[nxt(e[j].id,ee.size())].Y;
-            e[j].print();
         } while(!vis[j]);
         flt s=0;
         bool found=0;
@@ -74,12 +75,31 @@ void find_poly(){
             if(!found)found=x==j;
             if(found)s+=p[e[x].u]^p[e[x].v];
         }
-        debug("end %.10lf\n", s);
         if(s>EPS){
             found=0;
             for(auto x: seq){
                 if(!found)found=x==j;
                 if(found)border[x]=1;
+            }
+        }
+    }
+}
+int grp[MAXN];
+void init(){
+    int cnt=0;
+    rep(i,n)if(grp[i]==0){
+        queue<int> Q;
+        Q.push(i);
+        grp[i]=++cnt;
+        while(!Q.empty()){
+            int x=Q.front();
+            Q.pop();
+            for(auto u: E[x]){
+                int y=e[u.Y].v;
+                if(grp[y]==0){
+                    Q.push(y);
+                    grp[y]=cnt;
+                }
             }
         }
     }
@@ -107,10 +127,26 @@ set<Border> bd;
 bool ins[MAXN];
 int main(){
     scanf("%d%d%d",&n,&m,&q);
-    rep(i,n){
-        p[i].read();
-        evt.pb(mp(p[i].x, i));
-    }
+    default_random_engine gen(chrono::system_clock::now().time_since_epoch().count());
+    uniform_real_distribution<flt> dist(0.0, 2.0*PI);
+    rep(i,n)p[i].read();
+    bool fail;
+    flt ang;
+    do {
+        evt.clear();
+        ang=dist(gen);
+        rep(i,n){
+            p[i]=p[i].rot(ang);
+            evt.pb(mp(p[i].x, i));
+        }
+        sort(all(evt));
+        fail=0;
+        rep(i,evt.size()-1)if(fcmp(evt[i].X-evt[i+1].X)==0){
+            fail=1;
+            break;
+        }
+    } while(fail);
+
     int j=-1;
     rep(i,m){
         int u, v;
@@ -125,20 +161,17 @@ int main(){
     rep(i,n){
         sort(all(E[i]));
         rep(j,E[i].size())e[E[i][j].Y].id=j;
-        out(i);
-        rep(j,E[i].size()){
-            debug("%.4lf ", E[i][j].X);
-            e[E[i][j].Y].print();
-        }
     }
     find_poly();
-    rep(i,2*m)if(border[i]){
-        e[i].print();
+    rep(i,2*m)if(border[i]&&border[i^1]){
+        border[i]=border[i^1]=0;
     }
     rep(i,q){
         p[i+n].read();
+        p[i+n]=p[i+n].rot(ang);
         evt.pb(mp(p[i+n].x, i+n));
     }
+    init();
     sort(all(evt));
     memset(vis, 0, sizeof vis);
     for(auto ev: evt){
@@ -148,14 +181,11 @@ int main(){
         p[n+q].x+=10;
         e[j]=Edge(id, n+q);
         auto it = bd.lower_bound(Border(j, 0));
-        debug("found ");
         bool inside;
         if (it!=bd.end()) {
             Edge &ed=e[it->id];
-            ed.print();
             inside=p[ed.u].x>p[ed.v].x;
         } else {
-            debug("no\n");
             inside=0;
         }
         if(id>=n){ //query
@@ -166,28 +196,25 @@ int main(){
                 flag=1;
                 break;
             }
-            if(flag || !inside) {
+            if(flag || !inside || grp[id]==grp[e[it->id].u]){
                 for (auto ed: E[id]) {
                     if (border[ed.Y^1]^border[ed.Y]) {
                         int k=border[ed.Y] ? ed.Y : ed.Y^1;
-                        if(vis[k])bd.erase(e[k].it);
+                        if(vis[k]){
+                            bd.erase(e[k].it);
+                        }
                     }
                 }
                 for (auto ed: E[id]) {
                     if (border[ed.Y^1]^border[ed.Y]) {
                         int k=border[ed.Y] ? ed.Y : ed.Y^1;
                         if(fcmp(p[e[k].u].x-p[e[k].v].x)==0)continue;
-                        debug("processing ");
-                        e[k].print();
-                        out("gao");
                         if(!vis[k]){
-                            debug("insert %d\n", k);
                             auto tmp=bd.insert(Border(k, e[k].u==id ? e[k].ang : e[k^1].ang));
                             e[k].it=tmp.X;
                             assert(tmp.Y);
                             vis[k]=1;
                         }
-                        out("gao2");
                     }
                 }
             }
